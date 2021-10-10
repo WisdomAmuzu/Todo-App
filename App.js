@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Keyboard, KeyboardAvoidingView, Platform, StyleSheet, Text, View } from 'react-native';
 import { TextInput, TouchableOpacity } from 'react-native-gesture-handler';
-import Task from './components/Task';
+import Task from './components/homescreen/Task';
 
 export default function App() {
   const [task, setTask] = useState();
